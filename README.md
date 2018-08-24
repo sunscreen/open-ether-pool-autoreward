@@ -1,0 +1,1 @@
+# open-ether-pool-autoreward
