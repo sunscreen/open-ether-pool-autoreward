@@ -584,7 +584,7 @@ AUTO REWARD CONFIG FUNCTIONS
 func getNextEpoch (curEpoch int) int {
 var x int
 var results[] int
-results = getEpochinfo(1250000)
+results = getEpochinfo(curEpoch)
 //fmt.Println("2f:",results)
 x=results[0];
 return x
@@ -593,7 +593,7 @@ return x
 func getEpochReward(curEpoch int) int {
 var x int
 var results[] int
-results = getEpochinfo(1250000)
+results = getEpochinfo(curEpoch)
 //fmt.Println("2f:",shit)
 x=results[1];
 return x
@@ -603,7 +603,7 @@ return x
 func getEpochNextReward(curEpoch int) int {
 var x int
 var results[] int
-results = getEpochinfo(1250000)
+results = getEpochinfo(curEpoch)
 //fmt.Println("2f:",shit)
 x=results[2];
 return x
